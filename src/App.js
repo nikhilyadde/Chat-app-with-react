@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️ Chat App with React</h1>
+        <h1> Chat App with React</h1>
         <SignOut />
       </header>
 
@@ -54,7 +54,7 @@ function SignIn() {
   return (
     <>
       <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
-      <h1>Most People are nice & just want to have A chat..⚛️🔥💬!</h1>
+      <h1>Most People are nice & just want to have A chat..!</h1>
 
     </>
   )
@@ -107,7 +107,7 @@ function ChatRoom() {
 
       <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Type a message....." />
 
-      <button type="submit" disabled={!formValue}>⏏️Send</button>
+      <button type="submit" disabled={!formValue}>Send</button>
 
     </form>
   </>)
